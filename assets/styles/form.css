@@ -1,0 +1,28 @@
+/* Form */
+.form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+.form .form-title {
+    width: 100%;
+    text-align: center;
+}
+.form .field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form .inp {
+    width: 100%;
+}
+.form .form-error {
+    margin-top: -3px;
+    font-size: 14px;
+    color: red;
+}
+/* End Form */
